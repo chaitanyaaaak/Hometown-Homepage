@@ -1,7 +1,7 @@
 :root {
     --primary-color: #ffb74d;    /* Soft Golden Yellow – Indore vibe */
     --primary-darker: #ffa726;   /* Hover/Active shade */
-    --secondary-color: #1565c0;  /* Rich Indigo Blue – contrasts well */
+    --secondary-color: #5a6775;  /* Rich Indigo Blue – contrasts well */
     --dark-color: #1b263b;       /* Deep Midnight Blue */
     --light-color: #fdfdfd;      /* Almost white for readability */
     --white-color: #ffffff;
@@ -58,7 +58,7 @@ section {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding: 1.2rem 0;
+    padding: 1rem 0;
     transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -93,14 +93,14 @@ section {
     text-decoration: none;
     color: var(--dark-color);
     font-weight: 600;
-    padding: 0.3125rem;
+    padding: 0.5rem;
     border: 2px solid transparent;
     border-radius: 4px 8px 4px 8px;
     transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .main-nav a:hover {
-    color: var(--primary-color);
+    color: var(--primary-darker);
     border-color: var(--primary-color);
 }
 
@@ -203,8 +203,11 @@ section {
  
 .card img {
     width: 100%;
+    padding: 1rem;
     height: 13.75rem;
     object-fit: cover;
+    border-radius: 1rem;
+
 }
 
 .card-content {
@@ -264,10 +267,10 @@ section {
     font-size: 1.2rem;
 }
 
-/* #guide {
-    background: var(--dark-color);
+#guide {
+    background: linear-gradient(180deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
     color: var(--white-color);
-} */
+}
 
 .guide-content {
     display: flex;
@@ -306,6 +309,17 @@ section {
     color: var(--primary-color);
 }
 
+/* footer  */
 
+.main-footer {
+    background: var(--dark-color);
+    color: var(--grey-color);
+    text-align: center;
+    padding: 2.5rem 0;
+}
 
+.main-footer p {
+    margin-bottom: 0.3125rem;
+    font-size: 1rem;
+}
 
