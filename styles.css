@@ -264,6 +264,48 @@ section {
     font-size: 1.2rem;
 }
 
+/* #guide {
+    background: var(--dark-color);
+    color: var(--white-color);
+} */
+
+.guide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.guide-content img {
+    width: 11.25rem;
+    height: 11.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+    margin: 1.875rem 0;
+}
+
+.guide-content h2 {
+    color: var(--white-color);
+}
+
+.guide-content blackquote {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 1.25rem 0;
+    font-style: italic;
+    border-left: 0.25rem solid var(--primary-color);
+    padding-left: 1.5625rem;
+    text-align: left;
+}
+
+.guide-content .guide-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
 
 
 
