@@ -106,3 +106,47 @@ section {
 
 /* hero section */
 
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white-color);
+    padding: 0 1.25rem;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 700px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1.5625rem;
+    padding: 0.75rem 2.1875rem;
+    background: var(--primary-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+}
+
+.hero .btn:hover {
+    background: var(--primary-darker);
+    transform: translateY(-3px);
+}
+
+/* about section */
+
+
