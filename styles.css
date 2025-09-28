@@ -1,14 +1,12 @@
 :root {
-    --primary-color: #f39c12; /* Warm Saffron Yellow */
-    --primary-darker: #e67e22; /* Hover shade */
-    --secondary-color: #00796B; /* Deep Teal */
-    --dark-color: #34495e; /* Midnight Blue */
-    --light-color: #fdfdfd;
+    --primary-color: #ffb74d;    /* Soft Golden Yellow – Indore vibe */
+    --primary-darker: #ffa726;   /* Hover/Active shade */
+    --secondary-color: #1565c0;  /* Rich Indigo Blue – contrasts well */
+    --dark-color: #1b263b;       /* Deep Midnight Blue */
+    --light-color: #fdfdfd;      /* Almost white for readability */
     --white-color: #ffffff;
-    --grey-color: #f7f9f9;
-    --font-family: 'Share Tech', sans-serif; 
+    --grey-color: #e0e0e0;       /* Neutral light grey for subtle elements */
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -21,7 +19,7 @@ html {
 }
 
 body {
-    font-family: "Share Tech", sans-serif;
+    font-family: 'Share Tech', sans-serif;
     line-height: 1.8;
     background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%); 
     color: var(--dark-color);
@@ -32,21 +30,23 @@ body {
     max-width: 1100px;
     margin: auto;
     overflow: hidden;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
-
-.main-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
-.main-nav ul {
-    list-style: none;
-    display: flex;
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.25rem;
 }
 
-.main-nav ul li{
-    margin-left: 35px;
+p {
+    margin-bottom: 1.25rem;
 }
+section {
+    padding: 5.25rem 0;
+}
+
