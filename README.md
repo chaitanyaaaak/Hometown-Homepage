@@ -18,6 +18,6 @@ This webpage was developed as a solo project for a web development course I was 
 - HTML5
 - CSS3 (including Flexbox and Grid)
 
-## How To Use
+## Live Demo
 
-To view the project, simply download the `index.html` file and open it in any modern web browser.
+Check out the live version of this project [here](https://visitindore.netlify.app/).
